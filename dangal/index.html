@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangal Movie</title>
+    <style>
+        * {
+            padding: 0px;
+            box-sizing: border-box;
+            margin: 0px;
+            text-transform: capitalize;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        div.ad{
+            width: 80%;
+            min-width: 300px;
+            min-height: 200px;
+            margin: 50px 0px;
+            background: rgb(245, 243, 243);
+        }
+
+        div.container {
+            padding: 10px;
+            width: 60vw;
+            min-width: 300px;
+            max-width: 600px;
+            box-shadow: 0px 0px 6px -4px black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        div.image {
+            min-width: 250px;
+        }
+
+        div.image img {
+            width: 100%;
+            object-fit: cover;
+            object-position: top top;
+
+        }
+
+        div.detail {
+            /* border: solid 1px red; */
+        }
+        div.detail h4,div.detail p,div.detail button{
+            margin: 4px 0px;
+        }
+        div.detail button{
+            padding: 10px;
+            border-radius: 4px;
+            background-color: blue;
+            border: none;
+            transform: translateY(0%);
+            
+        }
+        div.detail button a{
+            color: white;
+            text-decoration: none;
+
+        }
+        div.detail img{
+            width: 100px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ad"></div>
+    <div class="container">
+        <div class="image">
+            <img src="img/dangal.jpg" alt="">
+        </div>
+        <div class="detail">
+            <h4>title:dangal</h4>
+            <p>released date <b>:</b> 27 november, 2019</p>
+            <button><a href="#" download>download</a></button>
+            <img src="img/zip.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
